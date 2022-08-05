@@ -19,6 +19,7 @@ Python is frequently used to script toil (boring and repetitive tasks) that are 
 * Add support for recursive processing (-r --recursive) that starts at the target directory
 * Add support for "deleting" directories and their contents (-d --directory)
 * Add support for different operatings systems use of / or \ as path delimiters
+* Create a similar utility using Linux (hint research awk and find commands)
 
 ### Open Ended Goals:
 * Consider what other toil type activities that would benefit from being automated
@@ -28,3 +29,5 @@ Python is frequently used to script toil (boring and repetitive tasks) that are 
 There are many modules that could be used to solve this challenge.  As a starting point consider researching these two.  Feel free to discover other, possible better modules as well with your independent research.
 * OS Module https://docs.python.org/3/library/os.html
 * ArgParse Module https://docs.python.org/3/library/argparse.html
+* Linux awk command https://www.gnu.org/software/gawk/manual/gawk.html
+* Linux find command https://man7.org/linux/man-pages/man1/find.1.html
